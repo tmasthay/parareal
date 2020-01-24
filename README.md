@@ -5,6 +5,6 @@ This is a short tutorial on the parareal algorithm as presented by Lions, Maday,
 Provides an implementation of a basic parareal algorithm for a 1D, first-order ODE. It also includes a simulation that details how the algorithm works.
 
 # parareal_tests.jl
-Provides two test cases. The first converges quickly (in the eyeball norm) and is a case where the algorithm may provide speedup. The other converges very slowly, indicating a test case which may not be desirable.
+Provides two test cases. The first converges quickly (in the eyeball norm) and is a case where the algorithm may provide speedup. The other converges very slowly, indicating a test case where parareal version will likely be slower than sequential algorithm.
 
 
