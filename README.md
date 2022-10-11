@@ -10,3 +10,4 @@ Provides two test cases. The first converges quickly (in the eyeball norm) and i
 # Maintenance Note
 Given that Julia is a young language and changes often, this code may very well need minor changes in order to run with the most recent version of Julia.
 However, it should be compatible with Julia 0.7 at worst. 
+This code should be treated as a teaching tool to get familiar with parallel programming in Julia; this code is far from production quality.
