@@ -7,4 +7,5 @@ Provides an implementation of a basic parareal algorithm for a 1D, first-order O
 # parareal_tests.jl
 Provides two test cases. The first converges quickly (in the eyeball norm) and is a case where the algorithm may provide speedup. The other converges very slowly, indicating a test case where parareal version will likely be slower than sequential algorithm.
 
-
+# Maintenance Note
+Give that Julia is a young language, this code may very well need minor changes in order to run. It should be compatible with Julia 0.7 at worst. 
